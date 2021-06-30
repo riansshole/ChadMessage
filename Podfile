@@ -6,6 +6,9 @@ target 'Chad' do
   use_frameworks!
 
   # Pods for Chad
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
 
   target 'ChadTests' do
     inherit! :search_paths
